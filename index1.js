@@ -6,6 +6,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function myFunction() {
-  var arrowUp = document.querySelector(".arrow-up");
+  var arrowUp = document.querySelector(".arrow");
   arrowUp.classList.toggle("rotate");
 }

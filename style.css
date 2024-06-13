@@ -188,25 +188,26 @@ body {
 
 .arrow-up span {
   display: flex;
-  width: 20px;
+  width: 100px;
   height: 3px;
   background-color: white;
-  margin-bottom: 5px;
+  margin-bottom: 46px;
   border-radius: 10px;
   transition: transform 0.5s ease;
 }
 
-.arrow-up.rotate span:nth-child(1) {
-  transform: rotate(208deg);
+.arrow.rotate span:nth-child(1) {
+  transform: rotate(210deg);
+  bottom: 100px;
 }
 
-.arrow-up.rotate span:nth-child(2) {
-  transform: rotate(-208deg);
+.arrow.rotate span:nth-child(2) {
+  transform: rotate(-210deg);
 }
 
-.arrow-up.rotate span:nth-child(3) {
+.arrow.rotate span:nth-child(3) {
   transform: rotate(270deg);
-  right: -1px;
-  bottom: 4px;
+  right: -8px;
+  bottom: 25px;
   position: absolute;
 }
